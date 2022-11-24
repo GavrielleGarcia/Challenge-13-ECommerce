@@ -51,7 +51,7 @@ Then, start working with the main file:
  
 
  ## Overview 
-![alt text](https://github.com/GavrielleGarcia/Challenge-12-EmployeeTracker/blob/main/images/Employee%20Tracker%20Error.jpg)
+[![Watch the video](https://github.com/GavrielleGarcia/Challenge-13-ECommerce/blob/main/assets/InsomniaView.mp4)
 
  
 ## Contributing 
