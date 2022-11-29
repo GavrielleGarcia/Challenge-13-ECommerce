@@ -9,6 +9,7 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Installation
   To install the necessary dependencies, run the following command:
+  
 ```bash
 npm i
 npm install dotenv --save
@@ -18,48 +19,49 @@ npm install --save mysql2
 npm install console.table --save
 ```
 
-After the dependencies are installed, create a .ENV file and fill it with your connection information. Example as follows:
+After the dependencies are installed, create a .ENV file and fill it with your connection information:
+(Don't forget to update your PW)
 
 ```bash
 
 DB_NAME='ecommerce_db'
+DB_HOST='localhost'
 DB_USER='root'
-DB_PASSWORD=''
+DB_PASSWORD='UPDATE YOUR PASSWORD HERE'
 
 ```
 
-Now, you can proceed to create the datbase schema:
+Now, you can proceed to create the datbase schema in MySQL Terminal:
 
 ```bash
  #under MySQL terminal
     mysql -u root -p
-    # to create the DB schema
+ # to create the DB schema
     db/SOURCE schema.sql
 ```
 
 Then, start working with the main file:
 
 ```bash
- #    node seeds/index.js
+  node seeds/index.js
 ```
 
 ## Technologies Used
- MysSQL
- JavaScript
- Node.js
- Insomnia
+- MysSQL
+- JavaScript
+- Node.js
+- Insomnia
  
 
  ## Overview 
-![alt text](https://github.com/GavrielleGarcia/Challenge-12-EmployeeTracker/blob/main/images/Employee%20Tracker%20Error.jpg)
+ [Link to Overview](https://app.screencast.com/ZPasf540bKof0?conversation=snXTY3snFyCtXjppgx1JI8)
 
  
 ## Contributing 
- Open to ay contribution for fixing my issue with the node connection with the mySQL connection.
+No contributions at the moment, thanks.
  
  
 ## Questions
-  You can see more of my work on [gavriellegarcia](https://github.com/gavriellegarcia).
+  My stuff [gavriellegarcia](https://github.com/gavriellegarcia).
 
-  If you have any additional questions send me an owl: gavrielle.garcia@hotmail.com.  
-  
+  Send me an owl: gavrielle.garcia@hotmail.com.  
